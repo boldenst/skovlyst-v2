@@ -377,7 +377,7 @@ body {
 }
 
 .main__beer-unfold--open, .main__menu-unfold--open, .main__abt-unfold--open  {
-    display: flex;
+    display: block;
 }
 
 .main-text__onclick-red--remove {
