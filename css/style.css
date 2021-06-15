@@ -156,7 +156,7 @@ body {
 }
 
 .fixed-btn__up {
-    z-index: 100;
+    z-index: 8;
     position: sticky;
     top: 90vh;
     margin-left: calc(100vw - 6rem);
@@ -639,7 +639,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
-    padding: 0rem 2rem 3rem 2rem;
+    padding: 0rem 2rem 6rem 2rem;
     grid-template-areas: 
     "contact contact contact contact"
     "food food food food"
@@ -884,9 +884,9 @@ footer {
 
 /* Menukort styling start */
 .menu-hero-image {
-    background-image: url(../images/selskab-bryggeriet-mad.jpg);
-    background-size: 200%;
-    background-position: 40% 60%;
+    background-image: url(../images/vores-menu.jpg);
+    background-size: 130%;
+    background-position: 40% 80%;
 }
 
 .menu-info-container {
@@ -985,7 +985,9 @@ footer {
 
 /* Øl styling start */
 .oel-hero-image {
-    background-image: url(../images/oel-hero.jpg);
+    background-image: url(../images/oel_hero-billede.jpg);
+    background-position: 50% 25%;
+    background-size: 120%;
 }
 
 .oel-container {
@@ -1186,8 +1188,8 @@ footer {
 /* Møder og konferencer styling start */
 
 .meetings-hero-image {
-    background-image: url(../images/moeder-og-konferencer-cover.jpg);
-    background-size: 120%;
+    background-image: url(../images/moeder-og-konferencer_hero-billede.jpg);
+    background-size: 200%;
     background-position: 50% 70%;
 }
 
@@ -1261,7 +1263,7 @@ footer {
 /* Selskaber styling start */
 
 .parties-hero-image {
-    background-image: url(../images/selskab-forside.jpg);
+    background-image: url(../images/selskaber_hero-billede.jpg);
     background-size: 100%;
     background-position: center;
 }
@@ -1355,7 +1357,7 @@ footer {
 /* Selskabsmenu styling start */
 
 .parties-party-menu-hero-image {
-   background-image: url(../images/selskab-forside.jpg);
+   background-image: url(../images/selskaber_hero-billede.jpg);
    margin: 0; 
    background-size: 100%;
    background-position: center;
@@ -2262,6 +2264,11 @@ footer {
 
 
 /* Menukort styling start */
+.menu-hero-image {
+    background-image: url(../images/vores-menu.jpg);
+    background-size: 100%;
+    background-position: center;
+}
 
 .menu-grid-container {
     width: calc(100vw - 19rem);
@@ -2548,7 +2555,9 @@ footer {
 /* Øl styling start */
 
 .oel-hero-image {
-    background-image: url(../images/oel-hero.jpg);
+    background-image: url(../images/oel_hero-billede.jpg);
+    background-position: 50% 25%;
+    background-size: 100%;
 }
 
 .oel-container {
@@ -2888,7 +2897,7 @@ footer {
 /* Møder og konferencer styling start */
 
 .meetings-hero-image {
-    background-image: url(../images/moeder-og-konferencer-cover.jpg);
+    background-image: url(../images/moeder-og-konferencer_hero-billede.jpg);
     background-size: 100%;
     background-position: 50% 65%;
 }
@@ -2973,9 +2982,8 @@ footer {
 
 
 .parties-hero-image {
-    background-image: url(../images/selskab-bryggeriet.jpg);
     background-size: 100%;
-    background-position: center;
+    background-position: 50% 25%;
 }
 
 .parties {
@@ -3312,7 +3320,7 @@ footer {
 .history-container__image {
     grid-area: img;
     width: 100%;
-    margin: 2.3rem 0;
+    margin: 0 0;
 }
 
 .history__container {
@@ -3324,8 +3332,8 @@ footer {
     grid-template-areas: 
     ". heading heading heading heading heading heading . . . . ."
     ". underline underline underline underline underline underline . . . . ."
-    ". vision vision vision vision . img img img img img ."
-    ". history history history history . img img img img img ."
+    ". vision vision vision vision . . img img img img ."
+    ". history history history history . . img img img img ."
     ". history history history history . . . . . . ."
     ;
 }
