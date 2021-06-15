@@ -72,8 +72,13 @@ body {
 .mobile-header__logo {
     align-self: center;
     justify-self: center;
-    width: 12rem;
     margin: 0 auto;
+    display: block;
+    overflow: hidden;
+}
+
+.mobile-header__logo-img {
+    width: 12rem;
 }
 
 .mobile-header__burger-container {
@@ -287,6 +292,14 @@ body {
     font-weight: 700;
 } 
 
+.burger-menu-logo {
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.burgermenu__logo-img {
+    width: 16rem;
+}
 
 /* Menu styling end -----------------------------------*/
 
@@ -1893,7 +1906,7 @@ footer {
 }
 
 .desktop__aside-logo {
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
     margin-top: 3rem;
 }
