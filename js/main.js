@@ -396,6 +396,32 @@ $(document).ready(function() {
 });
 // FAQ Funktion slut
 
+// Fjern og vis tekst Mobile start
+
+$(document).ready(function() {
+  $('.main-text__oel').click(function() {
+    $('.main__beer-unfold').toggleClass('main__beer-unfold--open')
+    $('.main-text__oel').toggleClass('main-text__onclick-red--remove')
+  });
+});
+
+$(document).ready(function() {
+  $('.main-text__menu').click(function() {
+    $('.main__menu-unfold').toggleClass('main__menu-unfold--open')
+    $('.main-text__menu').toggleClass('main-text__onclick-red--remove')
+  });
+});
+
+$(document).ready(function() {
+  $('.main-text__abt').click(function() {
+    $('.main__abt-unfold').toggleClass('main__abt-unfold--open')
+    $('.main-text__abt').toggleClass('main-text__onclick-red--remove')
+  });
+});
+
+
+// Fjern og vis tekst Mobile slut
+
 
 // Funktion til footer Mobile start
 $(document).ready(function() {
