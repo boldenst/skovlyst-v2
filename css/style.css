@@ -72,8 +72,13 @@ body {
 .mobile-header__logo {
     align-self: center;
     justify-self: center;
-    width: 12rem;
     margin: 0 auto;
+    display: block;
+    overflow: hidden;
+}
+
+.mobile-header__logo-img {
+    width: 12rem;
 }
 
 .mobile-header__burger-container {
@@ -287,6 +292,14 @@ body {
     font-weight: 700;
 } 
 
+.burger-menu-logo {
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.burgermenu__logo-img {
+    width: 16rem;
+}
 
 /* Menu styling end -----------------------------------*/
 
@@ -1123,9 +1136,9 @@ footer {
 
 /* Oplevelser styling start */
 .events-hero-image {
-    background-image: url(../images/oplevelser-cover.jpg);
-    background-size: 100%;
-    background-position: bottom center;
+    background-image: url(../images/skovhus.jpg);
+    background-size: 180%;
+    background-position: 30% 50%;
 }
 
 .events {
@@ -1910,7 +1923,7 @@ footer {
 }
 
 .desktop__aside-logo {
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
     margin-top: 3rem;
 }
@@ -2693,9 +2706,9 @@ footer {
 /* Oplevelser styling start */
 
 .events-hero-image {
-    background-image: url(../images/selskab-bryggeriet.jpg);
+    background-image: url(../images/skovhus.jpg);
     background-size: 100%;
-    background-position: center;
+    background-position: 50% 80%;
 }
 
 .events {
