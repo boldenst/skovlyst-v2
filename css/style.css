@@ -1267,6 +1267,7 @@ footer {
 
 .parties-season__underline {
     grid-area: underline;
+
 }
 
 .parties-season__text {
@@ -2983,7 +2984,8 @@ footer {
     ". heading heading heading heading . . img img img img ."
     ". underline underline underline underline . . img img img img ."
     ". text text text text . . img img img img ."
-    ". button-party-menu button-party-menu button-buffet button-buffet . . img img img img .";
+    ". button-party-menu button-party-menu button-buffet button-buffet . . img img img img ."
+    ". . . . . . . img img img img .";
 }
 
 .parties-season__img {
@@ -3002,6 +3004,8 @@ footer {
 
 .parties-season__text {
     grid-area: text;
+    margin-top: 1rem;
+    margin-bottom: 6rem;
 }
 
 .parties-season__button-party-menu {
