@@ -367,6 +367,23 @@ body {
 
 
 /* Buttons styling start ---------------------------------*/
+.main-text__onclick-red {
+    color: #880005;
+    font-weight: bold;
+}
+
+.main__beer-unfold, .main__menu-unfold, .main__abt-unfold  {
+    display: none;
+}
+
+.main__beer-unfold--open, .main__menu-unfold--open, .main__abt-unfold--open  {
+    display: flex;
+}
+
+.main-text__onclick-red--remove {
+    display: none;
+}
+
 .btn__global-styling {
     display: flex;
     flex-direction: row;
@@ -1978,6 +1995,14 @@ footer {
 
 
 /* Buttons styling start ---------------------------------*/
+
+.main-text__onclick-red {
+    display: none;
+}
+
+.main__beer-unfold, .main__menu-unfold, .main__abt-unfold  {
+    display: block;
+}
 
 .btn-red__lunch--desktop-first, .unfold__open--desktop-first {
     background-color: #fff;
