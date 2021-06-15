@@ -219,10 +219,18 @@
 
 <!-- Footer ------------------------------------------------------------------------------------------------------------------------------------------------->
 
-    <footer>
-        <div class="footer-contact">
-            <h3 class="footer-heading">Kontaktinformation</h3>
-            <div class="footer__heading-underline"></div>
+<a class="fixed-btn__up" href="#to-top">
+    <div class="up-arrow"></div>
+</a>
+
+<footer>
+    <div class="footer-contact">
+        <div class="footer-heading__container">
+        <h3 class="footer-heading footer-heading__contact">Kontakt</h3>
+        <div class="footer-heading__global-arrow footer-heading__contact-arrow"></div>
+        </div>
+        <div class="footer__heading-underline"></div>
+        <div class="footer__contact-toggle">
             <p class="footer__contact-address">
                 Skovlystvej 2 <br>
                 Hareskovby <br>
@@ -232,31 +240,49 @@
             <a class="footer__contact-phone" href="tel:+4544986545">+45 44 98 65 45</a>
             <a class="footer__contact-mail" href="mailto:info@bryggeriskovlyst.dk">info@bryggeriskovlyst.dk</a>
             <div class="footer__contact-some">
-                <a class="footer__contact-facebook" href="https://www.facebook.com/profile.php?id=100057332393262"><img
-                        src="./icons/facebook.svg" alt="facebook icon"></a>
+                <a class="footer__contact-facebook"
+                    href="https://www.facebook.com/profile.php?id=100057332393262"><img src="./icons/facebook.svg"
+                        alt="facebook icon"></a>
                 <a class="footer__contact-instagram" href="https://www.instagram.com/bryggeriskovlyst/"><img
                         src="./icons/instagram.svg" alt="instagram icon"></a>
             </div>
         </div>
-        <div class="footer-food">
-            <h3 class="footer-heading">Spise & Drikke</h3>
-            <div class="footer__heading-underline"></div>
+    </div>
+
+    <div class="footer-food">
+        <div class="footer-heading__container">
+            <h3 class="footer-heading footer-heading__food">Spise & Drikke</h3>
+            <div class="footer-heading__global-arrow footer-heading__food-arrow"></div>
+        </div>
+        <div class="footer__heading-underline"></div>
+        <div class="footer__food-toggle">
             <a class="footer-links" href="menu.html">Menu</a>
             <a class="footer-links" href="oel.html">Øl</a>
-            <a class="footer-links" href="selskaber/selskabsmenu.html">Selskabsmenuer</a>
-            <a class="footer-links" href="selskaber/buffet.html">Buffet</a>
+            <a class="footer-links" href="./selskaber.html">For selskaber</a>
+            <a class="footer-links" href="./oplev-skovhuset.html">I Skovhuset</a>
         </div>
-        <div class="footer-practical">
-            <h3 class="footer-heading">Praktisk Information</h3>
-            <div class="footer__heading-underline"></div>
-            <a class="footer-links" href="selskaber.html">Selskaber</a>
-            <a class="footer-links" href="moeder-og-konferencer.html">Møder & konferencer</a>
-            <a class="footer-links" href="oplevelser.html">Oplevelser</a>
-            <a class="footer-links" href="kontakt-og-info.html">Kontakt</a>
+    </div>
+
+    <div class="footer-practical">
+        <div class="footer-heading__container">
+            <h3 class="footer-heading footer-heading__practical">Praktisk Information</h3>
+            <div class="footer-heading__global-arrow footer-heading__practical-arrow"></div>
         </div>
-        <div class="footer-hours">
-            <h3 class="footer-heading">Åbningstider</h3>
-            <div class="footer__heading-underline"></div>
+        <div class="footer__heading-underline"></div>
+        <div class="footer__practical-toggle">
+            <a class="footer-links" href="kontakt-os.html">Kontakt os</a>
+            <a class="footer-links" href="./kontakt-os.html#faq-anchor">FAQ</a>
+            <a class="footer-links" href="./kontakt-os.html#gift-anchor">Gavekort</a>
+            <a class="footer-links" href="./booking.html">Book bord</a>
+        </div>
+    </div>
+    <div class="footer-hours">
+        <div class="footer-heading__container">
+            <h3 class="footer-heading footer-heading__hours">Åbningstider</h3>
+            <div class="footer-heading__global-arrow footer-heading__hours-arrow"></div>
+        </div>
+        <div class="footer__heading-underline"></div>
+        <div class="footer__hours-toggle">
             <div class="footer__hours-hours">
                 <p>Mandag-lørdag:</p>
                 <p>11:30-22:00</p>
@@ -281,7 +307,8 @@
                 <p>17:00-21:00</p>
             </div>
         </div>
-    </footer>
+    </div>
+</footer>
 
 <!-- Scripts ------------------------------------------------------------------------------------------------------------------------------------------------->
 
