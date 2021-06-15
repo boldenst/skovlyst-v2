@@ -1136,9 +1136,9 @@ footer {
 
 /* Oplevelser styling start */
 .events-hero-image {
-    background-image: url(../images/oplevelser-cover.jpg);
-    background-size: 100%;
-    background-position: bottom center;
+    background-image: url(../images/skovhus.jpg);
+    background-size: 180%;
+    background-position: 30% 50%;
 }
 
 .events {
@@ -2706,9 +2706,9 @@ footer {
 /* Oplevelser styling start */
 
 .events-hero-image {
-    background-image: url(../images/selskab-bryggeriet.jpg);
+    background-image: url(../images/skovhus.jpg);
     background-size: 100%;
-    background-position: center;
+    background-position: 50% 80%;
 }
 
 .events {
